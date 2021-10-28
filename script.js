@@ -29,7 +29,7 @@ function checkHigher(){
         document.getElementById("winWrapper").style.visibility = "visible";
         document.getElementById("page").style.backgroundImage = "none";
     }
-    else if(true){
+    else if(higher){
         document.getElementById("clueBox").innerHTML = facts[count];
         document.getElementById("page").style.backgroundImage = images[count];
         setHigher();
@@ -49,7 +49,7 @@ function checkLower(){
         document.getElementById("winWrapper").style.visibility = "visible";
         document.getElementById("page").style.backgroundImage = "none";
     }
-    else if(true){
+    else if(!higher){
         document.getElementById("clueBox").innerHTML = facts[count];
         document.getElementById("page").style.backgroundImage = images[count];
         setHigher();
